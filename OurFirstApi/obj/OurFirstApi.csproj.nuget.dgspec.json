@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mrsci\\Documents\\VSProject\\.NETStage--2\\.NET-Stage2\\OurFirstApi\\OurFirstApi.csproj": {}
+    "C:\\Users\\mrsci\\Documents\\GitHubProjects\\LearningJava\\.NET-Stage2\\.NET-Stage2\\OurFirstApi\\OurFirstApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mrsci\\Documents\\VSProject\\.NETStage--2\\.NET-Stage2\\OurFirstApi\\OurFirstApi.csproj": {
+    "C:\\Users\\mrsci\\Documents\\GitHubProjects\\LearningJava\\.NET-Stage2\\.NET-Stage2\\OurFirstApi\\OurFirstApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mrsci\\Documents\\VSProject\\.NETStage--2\\.NET-Stage2\\OurFirstApi\\OurFirstApi.csproj",
+        "projectUniqueName": "C:\\Users\\mrsci\\Documents\\GitHubProjects\\LearningJava\\.NET-Stage2\\.NET-Stage2\\OurFirstApi\\OurFirstApi.csproj",
         "projectName": "OurFirstApi",
-        "projectPath": "C:\\Users\\mrsci\\Documents\\VSProject\\.NETStage--2\\.NET-Stage2\\OurFirstApi\\OurFirstApi.csproj",
+        "projectPath": "C:\\Users\\mrsci\\Documents\\GitHubProjects\\LearningJava\\.NET-Stage2\\.NET-Stage2\\OurFirstApi\\OurFirstApi.csproj",
         "packagesPath": "C:\\Users\\mrsci\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mrsci\\Documents\\VSProject\\.NETStage--2\\.NET-Stage2\\OurFirstApi\\obj\\",
+        "outputPath": "C:\\Users\\mrsci\\Documents\\GitHubProjects\\LearningJava\\.NET-Stage2\\.NET-Stage2\\OurFirstApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

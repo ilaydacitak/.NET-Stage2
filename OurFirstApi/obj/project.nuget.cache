@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eVRpNZfeZDS3f8EiOLBXZ2QebrMn3BpH8yRvjwS8BL7M79VmpSlHfAA3BZ/N0Ri/NGs5AMve1DHpxK5p1XZANQ==",
+  "dgSpecHash": "BYiCsRrvT7ZXStZgRb0wmiW1s0UN4vp0znML4Kj43GzTHFqBfOsa+5oLC/l79vbMfGyqpXh+uWYVhJi7CFrh3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrsci\\Documents\\VSProject\\.NETStage--2\\.NET-Stage2\\OurFirstApi\\OurFirstApi.csproj",
+  "projectFilePath": "C:\\Users\\mrsci\\Documents\\GitHubProjects\\LearningJava\\.NET-Stage2\\.NET-Stage2\\OurFirstApi\\OurFirstApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrsci\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
     "C:\\Users\\mrsci\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
