@@ -1,0 +1,15 @@
+C:\Users\mrsci\Masaüstü\İşGüçLanet\KURSLAR -\SSTEK\AcademyProject\AcademyProject-2\OperatorOverloading\OperatorOverloading\bin\Debug\net6.0\OperatorOverloading.exe
+C:\Users\mrsci\Masaüstü\İşGüçLanet\KURSLAR -\SSTEK\AcademyProject\AcademyProject-2\OperatorOverloading\OperatorOverloading\bin\Debug\net6.0\OperatorOverloading.deps.json
+C:\Users\mrsci\Masaüstü\İşGüçLanet\KURSLAR -\SSTEK\AcademyProject\AcademyProject-2\OperatorOverloading\OperatorOverloading\bin\Debug\net6.0\OperatorOverloading.runtimeconfig.json
+C:\Users\mrsci\Masaüstü\İşGüçLanet\KURSLAR -\SSTEK\AcademyProject\AcademyProject-2\OperatorOverloading\OperatorOverloading\bin\Debug\net6.0\OperatorOverloading.dll
+C:\Users\mrsci\Masaüstü\İşGüçLanet\KURSLAR -\SSTEK\AcademyProject\AcademyProject-2\OperatorOverloading\OperatorOverloading\bin\Debug\net6.0\OperatorOverloading.pdb
+C:\Users\mrsci\Masaüstü\İşGüçLanet\KURSLAR -\SSTEK\AcademyProject\AcademyProject-2\OperatorOverloading\OperatorOverloading\obj\Debug\net6.0\OperatorOverloading.csproj.AssemblyReference.cache
+C:\Users\mrsci\Masaüstü\İşGüçLanet\KURSLAR -\SSTEK\AcademyProject\AcademyProject-2\OperatorOverloading\OperatorOverloading\obj\Debug\net6.0\OperatorOverloading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mrsci\Masaüstü\İşGüçLanet\KURSLAR -\SSTEK\AcademyProject\AcademyProject-2\OperatorOverloading\OperatorOverloading\obj\Debug\net6.0\OperatorOverloading.AssemblyInfoInputs.cache
+C:\Users\mrsci\Masaüstü\İşGüçLanet\KURSLAR -\SSTEK\AcademyProject\AcademyProject-2\OperatorOverloading\OperatorOverloading\obj\Debug\net6.0\OperatorOverloading.AssemblyInfo.cs
+C:\Users\mrsci\Masaüstü\İşGüçLanet\KURSLAR -\SSTEK\AcademyProject\AcademyProject-2\OperatorOverloading\OperatorOverloading\obj\Debug\net6.0\OperatorOverloading.csproj.CoreCompileInputs.cache
+C:\Users\mrsci\Masaüstü\İşGüçLanet\KURSLAR -\SSTEK\AcademyProject\AcademyProject-2\OperatorOverloading\OperatorOverloading\obj\Debug\net6.0\OperatorOverloading.dll
+C:\Users\mrsci\Masaüstü\İşGüçLanet\KURSLAR -\SSTEK\AcademyProject\AcademyProject-2\OperatorOverloading\OperatorOverloading\obj\Debug\net6.0\refint\OperatorOverloading.dll
+C:\Users\mrsci\Masaüstü\İşGüçLanet\KURSLAR -\SSTEK\AcademyProject\AcademyProject-2\OperatorOverloading\OperatorOverloading\obj\Debug\net6.0\OperatorOverloading.pdb
+C:\Users\mrsci\Masaüstü\İşGüçLanet\KURSLAR -\SSTEK\AcademyProject\AcademyProject-2\OperatorOverloading\OperatorOverloading\obj\Debug\net6.0\OperatorOverloading.genruntimeconfig.cache
+C:\Users\mrsci\Masaüstü\İşGüçLanet\KURSLAR -\SSTEK\AcademyProject\AcademyProject-2\OperatorOverloading\OperatorOverloading\obj\Debug\net6.0\ref\OperatorOverloading.dll
