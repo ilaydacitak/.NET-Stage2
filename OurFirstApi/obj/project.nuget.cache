@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EU3z9QppEWDo8fUQUoXEWuzN9575AHJpBTXmf6XKrjblWFfogN+9gw1fE4cqDQVryGeiHQIJWedyaoJjzPOl3A==",
+  "dgSpecHash": "eVRpNZfeZDS3f8EiOLBXZ2QebrMn3BpH8yRvjwS8BL7M79VmpSlHfAA3BZ/N0Ri/NGs5AMve1DHpxK5p1XZANQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mrsci\\Masaüstü\\AcademyLecture-master\\AcademyLecture-master\\OurFirstApi\\OurFirstApi.csproj",
+  "projectFilePath": "C:\\Users\\mrsci\\Documents\\VSProject\\.NETStage--2\\.NET-Stage2\\OurFirstApi\\OurFirstApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mrsci\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
     "C:\\Users\\mrsci\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
