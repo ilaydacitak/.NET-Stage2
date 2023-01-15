@@ -22,6 +22,8 @@ public class GlobalExceptionHandler
         }
         catch (Exception e)
         {
+            // NEDEN THROW E; YAPMADIK = EROROUN FORMATINI DÜZENLEDÝK - AKSÝ TAKTÝRDE KARMASIK
+            // VE HER BÝLGÝNÝN BULUNDUÐU GÜVENLÝK AÇIÐI YARATABÝLECEK BÝR HATA MESAJI DÖNDÜRÜR
             await HandleOurException(httpContext, e);
         }
     }

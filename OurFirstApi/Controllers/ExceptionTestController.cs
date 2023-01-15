@@ -108,7 +108,7 @@ public class ExceptionTestController :ControllerBase
         {
             var response = new Response
             {
-                Message = "OZAL"
+                Message = "ÇITAK"
             };
             return new ContentResult
             {

@@ -28,6 +28,7 @@ if (app.Environment.IsDevelopment())
 }
 
 //app.UseMiddleware<GlobalExceptionHandler>();
+//BURAYA EKLEDÝK BÝZÝMKÝNÝ
 
 app.UseHttpsRedirection();
 
@@ -35,7 +36,9 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-
+//BU ÜSTEKKÝLER MIDDLEWARE - SIRASINI BÝZ BELÝRLEYEBÝLÝRÝZ.
+// CLIENT -REQUEST-> MW ... --> [ENDPOINTS]-|
+//              RESPONSE <---- MW5 ---------|
 
 app.Run();
 
@@ -50,5 +53,3 @@ app.Run();
   * IActionFilter
   */
 
-//deneme
-// deneme 2 
