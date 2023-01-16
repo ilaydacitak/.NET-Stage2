@@ -36,7 +36,8 @@ public class RequestResponseController : ControllerBase
         };
         return new JsonResult(response);
     }
-    [HttpPost]
+    [HttpPost] // KÖÞELÝ PARANTEZ ÝÇÝNE YAZILANLAR ATTRIBUTE OLUR, ATTRIBUTE DE BÝR CLASS DIR.
+               // NE YAPACAÐINI SÖYLUYOR BURADA
     [Route("student")]
     public JsonResult CreateStudent([FromBody]CreateStudentRequest request)
     //FROM BODY KOYMAZSAK EÐER API FORM OLARAK ALGILAR!!!
@@ -126,4 +127,5 @@ public class RequestResponseController : ControllerBase
         };
         return new JsonResult(response);
     }
+
 }

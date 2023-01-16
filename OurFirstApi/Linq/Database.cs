@@ -96,6 +96,7 @@ public class Database
     public List<Student> Students { get; set; }
 
     [Obsolete("Bu methodu artık geçerli değil,StudentCount2 methodunu kullanın")]
+    //ESKİYEN ARTIK KULLANILMAYAN METOTLAR İÇİN YAZILIR OBSOLETE
     public int StudentCount()
     {
         if (Students != null) return Students.Count;
@@ -113,7 +114,7 @@ public class Student
 {
     public string Name { get; set; }
     
-    [JsonProperty("LastName")]
+    [JsonProperty("LastName")] //JSON SERILIAZE EDERKEN İSMİNİ BÖYLE AL DİYE İÇERİĞİ BULUNAN ATTRIBUTE
     public string Surname { get; set; }
     public string Color { get; set; }
     public int Height { get; set; }

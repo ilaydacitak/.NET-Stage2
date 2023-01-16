@@ -12,6 +12,7 @@ public class StudentController : ControllerBase
 {
     private readonly IMediator _mediator;
 
+    //CONTROLLER TARAFINDA BUSSN ÝÞÝ OLMAMALI, SO BUNU KULLANARAK SAÐLAYABÝLÝYORUZ BU KOÞULU
     public StudentController(IMediator mediator)
     {
         _mediator = mediator;
@@ -28,6 +29,13 @@ public class StudentController : ControllerBase
         var student = await _mediator.Send(query);
         var newResult = JsonConvert.SerializeObject(student);
         var newResult2 = JsonConvert.DeserializeObject<Student>(newResult);
+
+        // DESERIALIZE = JSON FORMATINI OBJ ÇEVÝRÝR
+        // OBJEYÝ JSON FORMATINA ÇEVÝRÝR = SERIALIZE
+        // ÇEVÝRÝP OKURKEN SURNAME -> lASTNAME OLUR
+        // OBJEDE DEÐÝÞÝKLÝK OLMAZ 
+
+
         return new JsonResult(student);
         
     }
@@ -36,6 +44,7 @@ public class StudentController : ControllerBase
     public async Task<JsonResult> CreateStudent(CreateStudentCommand command)
     {
         var result = await _mediator.Send(command);
+        // AWAIT KALDIRILINCA DÖNEN NESENE TASK TÜRÜNDEN OLUYOR. FARK BURADA.
 
         
         return new JsonResult(result);

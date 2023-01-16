@@ -6,6 +6,7 @@ namespace OurFirstApi.StudentMediator.CreateStudent;
 public class CreateStudentCommandHandler : IRequestHandler<CreateStudentCommand,Student>
 {
     public   Task<Student> Handle(CreateStudentCommand command, CancellationToken cancellationToken)
+    // ÝÇERÝSÝNDE ASENKRON METOT TANIMLAMA ÝHT YÜKSEK OLDUÐUNDAN BU DÝREKT DEFAULT OALRAK TASK OALRAK TANIMLANMIÞTIR
     {
         Database db = new Database();
         

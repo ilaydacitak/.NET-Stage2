@@ -6,14 +6,14 @@ builder.Configuration.AddJsonFile("copyright.json", false, true);
 
 var config = builder.Configuration;
 config.GetValue<string>("AllowedHosts");
-builder.Services.AddSingleton<IConfiguration>(config);
+builder.Services.AddSingleton<IConfiguration>(config); // BAÞKA YERDE DE OKUYABÝLMEK ADINA BURADA DEÐERÝ TUTTUK.
 // Add services to the container.
 var secretKey = config.GetValue<string>("SecretKey"); //TÜM DOSYA YERÝNE BELÝRLÝ OLANI DÝREKT OKUMAYI SAÐLADI.
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddMediatR(typeof(Program));
+builder.Services.AddMediatR(typeof(Program)); //BUNU EKLEYEBÝLMEK ÝÇÝN 2 TANE KÜTÜPHANE YÜKLEDÝK.
 builder.Services.Configure<KestrelServerOptions>(options =>
 {
     options.AllowSynchronousIO = true;
