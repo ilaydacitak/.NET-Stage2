@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mrsci\\Masaüstü\\Part2-Me\\OperatorOverloading\\OperatorOverloading\\OperatorOverloading.csproj",
+      "projectUniqueName": "C:\\Users\\mrsci\\Documents\\GitHubProjects\\LearningJava\\.NET-Stage2\\.NET-Stage2\\OperatorOverloading\\OperatorOverloading\\OperatorOverloading.csproj",
       "projectName": "OperatorOverloading",
-      "projectPath": "C:\\Users\\mrsci\\Masaüstü\\Part2-Me\\OperatorOverloading\\OperatorOverloading\\OperatorOverloading.csproj",
+      "projectPath": "C:\\Users\\mrsci\\Documents\\GitHubProjects\\LearningJava\\.NET-Stage2\\.NET-Stage2\\OperatorOverloading\\OperatorOverloading\\OperatorOverloading.csproj",
       "packagesPath": "C:\\Users\\mrsci\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mrsci\\Masaüstü\\Part2-Me\\OperatorOverloading\\OperatorOverloading\\obj\\",
+      "outputPath": "C:\\Users\\mrsci\\Documents\\GitHubProjects\\LearningJava\\.NET-Stage2\\.NET-Stage2\\OperatorOverloading\\OperatorOverloading\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -39,13 +39,16 @@ public class RequestResponseController : ControllerBase
     [HttpPost]
     [Route("student")]
     public JsonResult CreateStudent([FromBody]CreateStudentRequest request)
+    //FROM BODY KOYMAZSAK EÐER API FORM OLARAK ALGILAR!!!
     {
         Database db = new Database();
         
-        var maxNumber = db.Students.MaxBy(m => m.Number)!.Number;
-        var newNumber = maxNumber + 1;
+        var maxNumber = db.Students.MaxBy(m => m.Number)!.Number; 
+        //MAXBY KULLANIRKEN HANGÝ ÖZELLÝÐE GÖRE SIRALAYACAÐIMIZI VERMELÝYÝZ
+        var newNumber = maxNumber + 1; // YENÝ KAYDEDÝLEN MAX NUMBERDEN BÝR FAZLA OLACAK YANÝ OTO. ARTTIRMAK GÝBÝ
         
-        var newStudent = new Student
+        var newStudent = new Student  //BÝREBÝR DB MODELÝNÝN AYNISI OLSA BÝLE MANÝPULE EDEBÝLME ÝHÝTMALI
+                                      //DOLAYISIYLA YENÝ MODEL OLUÞTURUP, ENTÝTY BU KATMANDA SAKLANMALIDIR.
         {
             Number = newNumber,
             Name = request.Name,
@@ -65,7 +68,7 @@ public class RequestResponseController : ControllerBase
         return new JsonResult(response);
     }
     
-    [HttpPut]
+    [HttpPut] //UPDATE ÝÇÝN KULLANILIR
     [Route("student")]
     public JsonResult UpdateStudent([FromBody]UpdateStudentRequest request)
     {
@@ -96,7 +99,7 @@ public class RequestResponseController : ControllerBase
         return new JsonResult(response);
     }
     
-    [HttpDelete]
+    [HttpDelete]  //DELETE ÝÇÝN REQUEST MODEL OLUÞTURMAYA GEREK YOK
     [Route("student/{number}")]
     public JsonResult DeleteStudent(int number)
     {

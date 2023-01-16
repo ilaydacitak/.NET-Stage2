@@ -8,7 +8,7 @@ var config = builder.Configuration;
 config.GetValue<string>("AllowedHosts");
 builder.Services.AddSingleton<IConfiguration>(config);
 // Add services to the container.
-var secretKey = config.GetValue<string>("SecretKey");
+var secretKey = config.GetValue<string>("SecretKey"); //TÜM DOSYA YERÝNE BELÝRLÝ OLANI DÝREKT OKUMAYI SAÐLADI.
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

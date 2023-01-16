@@ -22,7 +22,7 @@ public class ExceptionTestController :ControllerBase
     }
     [HttpGet]
     [Route("config-test")]
-    public string ConfigTest()
+    public string ConfigTest()  // PROGRAMDA OKUDUÐUMU GÝBÝ BURADA DA OKUAYBÝLÝRÝZ
     {
         var secretKey = _configuration.GetValue<string>("Secrets:SecretKey");
         var accessKey = _configuration.GetValue<int>("Secrets:AccessKey");
