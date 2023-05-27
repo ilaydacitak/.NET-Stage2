@@ -1,6 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OurFirstApi", "OurFirstApi\OurFirstApi.csproj", "{2A492D94-6CDF-4A46-97B9-0960FA7BBA56}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OurFirstApi", "OurFirstApi\OurFirstApi.csproj", "{2A492D94-6CDF-4A46-97B9-0960FA7BBA56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "quiz3", "quiz3\quiz3.csproj", "{4FEC86D3-5CDE-4484-B96C-985062670A75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +17,15 @@ Global
 		{2A492D94-6CDF-4A46-97B9-0960FA7BBA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A492D94-6CDF-4A46-97B9-0960FA7BBA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A492D94-6CDF-4A46-97B9-0960FA7BBA56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FEC86D3-5CDE-4484-B96C-985062670A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FEC86D3-5CDE-4484-B96C-985062670A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FEC86D3-5CDE-4484-B96C-985062670A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FEC86D3-5CDE-4484-B96C-985062670A75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06F15560-8EFA-40C2-967E-03659F607E2E}
 	EndGlobalSection
 EndGlobal
